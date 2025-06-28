@@ -3,7 +3,7 @@
     "title": "Food Delivery Website",
     "imageSrc": "projects/food-project.png",
     "description": "Designed an interactive landing page showcasing features, menu highlights, and contact for orders.",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["HTML", "CSS", "JavaScript"],
     "demo": "https://food-delivery-nu-seven.vercel.app",
     "source": "https://github.com/mishraansh-dev/Food-Delivery-Website"
   },
