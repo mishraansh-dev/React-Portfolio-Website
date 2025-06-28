@@ -25,3 +25,33 @@
   width: 100%;
 }
 
+@media screen and (max-width: 830px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .projects {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    margin-top: 50px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .projects {
+    gap: 15px;
+  }
+}
+
