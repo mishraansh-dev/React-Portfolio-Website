@@ -1,26 +1,51 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "title": "Food Delivery Website",
+    "imageSrc": "projects/food-project.png",
+    "description": "Designed an interactive landing page showcasing features, menu highlights, and contact for orders.",
     "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://food-delivery-nu-seven.vercel.app",
+    "source": "https://github.com/mishraansh-dev/Food-Delivery-Website"
+  },
+   {
+    "title": "Travel Agency Website",
+    "imageSrc": "projects/Travel.png",
+    "description": "Built a platform showcasing travel packages, booking and destinations.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://tourbooking-omega.vercel.app",
+    "source": "https://github.com/mishraansh-dev"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "E-commerce Website",
+    "imageSrc": "projects/e-commerce.png",
+    "description": "Designed a shopping platform with product listings and order management.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://ecommerce-sigma-six-75.vercel.app",
+    "source": "https://github.com/mishraansh-dev/Ecommerce"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Restaurant Rating Analysis",
+    "imageSrc": "projects/restaurant_analysis_photo.png",
+    "description": "Performed data analysis on restaurant ratings to uncover trends and improve customer satisfaction.",
+    "skills": ["Python", "Node"],
+    "demo": "https://github.com/mishraansh-dev/Restaurant-Rating-Analysis.git",
+    "source": "https://github.com/mishraansh-dev/Restaurant-Rating-Analysis.git"
+  },
+  
+  {
+    "title": "NFT Certification System",
+    "imageSrc": "projects/NFT.png",
+    "description": "A blockchain platform for issuing, verifying, and revoking certificates.",
+    "skills": ["NextJs", "Solidity", "MetaMask"],
+    "demo": "https://github.com/mishraansh-dev/NFTCertificateSystem.git",
+    "source": "https://github.com/mishraansh-dev/NFTCertificateSystem.git"
+  },
+  {
+    "title": "Civic Connect",
+    "imageSrc": "projects/civic-watch.png",
+    "description": "Built a system to report civic issues with image detection, location tracking, and status updates.",
+    "skills": ["TypeScript", "Node", "JavaScript"],
+    "demo": "https://github.com/mishraansh-dev/CivicConnect",
+    "source": "https://github.com/mishraansh-dev/CivicConnect"
   }
 ]

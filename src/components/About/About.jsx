@@ -9,7 +9,7 @@ export const About = () => {
       <h2 className={styles.title}>About</h2>
       <div className={styles.content}>
         <img
-          src={getImageUrl("about/aboutImage.png")}
+          src={getImageUrl("about/linkedin-profile.png")}
           alt="Me sitting with a laptop"
           className={styles.aboutImage}
         />
@@ -37,10 +37,9 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
-              <h3>UI Designer</h3>
+              <h3>ML Enthusiast</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                I have worked with different models such as CNN and Random Forest models achieving 94% accuracy
               </p>
             </div>
           </li>

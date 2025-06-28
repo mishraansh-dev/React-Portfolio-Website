@@ -1,0 +1,38 @@
+/* Responsive Breakpoints */
+:root {
+  --mobile-width: 480px;
+  --tablet-width: 768px;
+  --laptop-width: 1024px;
+  --desktop-width: 1200px;
+}
+
+/* Utility classes for responsive design */
+.hide-on-mobile {
+  display: none;
+}
+
+@media screen and (min-width: 481px) {
+  .hide-on-mobile {
+    display: initial;
+  }
+  
+  .show-on-mobile {
+    display: none;
+  }
+}
+
+/* Add this new media query for the 827px-1057px range */
+@media screen and (min-width: 827px) and (max-width: 1057px) {
+  /* This will be applied only in the specified range */
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* Add this test style to verify responsive.css is working */
+@media screen and (max-width: 480px) {
+  body {
+    /* This subtle background change will help you verify the file is being applied */
+    background-color: var(--color-bg);
+  }
+}

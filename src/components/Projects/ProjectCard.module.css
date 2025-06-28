@@ -3,15 +3,24 @@
 .container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between; /* Ensure content is spaced properly */
   border-radius: 10px;
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
   max-width: 345px;
+  width: 100%;
+  height: 500px; /* Fixed height for uniform cards */
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 .image {
   margin-bottom: 26px;
+  height: 200px; /* Fixed height for images */
+  width: 100%;
+  object-fit: cover; /* Maintain aspect ratio and crop excess */
+  border-radius: 8px;
 }
 
 .title {
@@ -45,7 +54,7 @@
 
 .links {
   width: 100%;
-  margin-top: 26px;
+  margin-top: auto; /* Push buttons to the bottom of the card */
   display: flex;
   justify-content: space-around;
 }
