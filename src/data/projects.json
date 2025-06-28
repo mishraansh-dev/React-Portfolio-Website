@@ -44,7 +44,7 @@
     "title": "Civic Connect",
     "imageSrc": "projects/civic-watch.png",
     "description": "Built a system to report civic issues with image detection, location tracking, and status updates.",
-    "skills": ["TypeScript", "Node", "JavaScript"],
+    "skills": ["TypeScript", "Node", "Firebase"],
     "demo": "https://github.com/mishraansh-dev/CivicConnect",
     "source": "https://github.com/mishraansh-dev/CivicConnect"
   }
